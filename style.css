@@ -1,0 +1,50 @@
+.circle{
+    margin: 0px auto;
+    border: 2px solid black;
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    background-color: rgb(217, 79, 79);
+    position: relative;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+}
+.a{
+    position: absolute;
+    left: 183px;
+    top: 20px;
+}
+.b{
+    position: absolute;
+    left: 183px;
+    bottom: 10px;
+}
+.c{
+    position: absolute;
+    left: 50px;
+    bottom: 90px;
+}
+.d{
+    position: absolute;
+    left: 330px;
+    top: 150px;
+}
+.e{
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+button{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 100%;
+    height: 40px;
+    width: 45px;
+    left: 180px;
+    top: 180px;
+    background-color: rgb(243, 243, 72);
+    font-size: 20px;
+    box-shadow: 1px 1px 20px  ;
+}
