@@ -1,7 +1,19 @@
-.circle{
-    margin: 0px auto;
-    border: 2px solid black;
+body{
+    background-color: rgb(253, 253, 69);
+}
+.main-flx{
+    display: flex;
+}
+.flx-1{
+    width: 50%;
+}
+.flx-2{
+    width: 50%;
+}
+.letter{
+    border: 2px solid gray;
     border-radius: 100%;
+    box-shadow: 0px 1px 30px ;
     width: 400px;
     height: 400px;
     margin-top: 50px;
@@ -10,6 +22,19 @@
     font-size: 30px;
     color: white;
     font-weight: bolder;
+}
+.word{
+    text-align: center;
+    padding-left: 400px;
+    margin-top: 40px;
+    
+}
+.word input{
+    padding: 10px 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 20px ;
 }
 .a{
     position: absolute;
@@ -36,7 +61,7 @@
     top: 90px;
     left: 50px;
 }
-button{
+#start{
     position: absolute;
     border: 1px solid black;
     border-radius: 100%;
@@ -47,4 +72,42 @@ button{
     background-color: rgb(243, 243, 72);
     font-size: 20px;
     box-shadow: 1px 1px 20px  ;
+}
+.end{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 10px ;
+    border-radius: 10px;
+    background-color: rgb(228, 149, 149);
+}
+.show-area{
+    margin: 50px 0px 0px 50px;
+    border: 1px solid gray;
+    height: 400px;
+    width: 500px;
+    border-radius: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 20px ;
+    background-color: rgb(244, 130, 130); 
+}
+.type-word{
+    text-transform: uppercase;
+
+}
+.ok{
+    font-weight: bold;
+   padding: 5px 20px; 
+   font-size: 20px; 
+   border: 1px solid gray;
+   box-shadow: 1px 1px 10px ;
+   border-radius: 10px; 
+   margin-left: 20px;
+   background-color: rgb(244, 130, 130); 
+}
+.show-area p{
+    font-size: 20px;
+    font-weight: bolder;
 }
